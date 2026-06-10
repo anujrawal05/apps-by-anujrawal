@@ -17,6 +17,24 @@ const appPortfolio = {
       "Automatic volume synchronization scaling media stream changes alongside call volume.",
       "Smart Bluetooth connection filter excluding smartwatches/BLE fitness bands."
     ]
+  },
+  "electronics-engineers": {
+    title: "Electronics Engineers",
+    catchphrase: "Interactive academic portal featuring real-time signal simulators, 8086 bus decoders, and complexity solvers.",
+    badge: "Live",
+    os: "Android",
+    releaseDate: "June 2026",
+    version: "v1.0.0",
+    iconUrl: "./assets/electronics_engineers_icon.png",
+    downloadUrl: "./downloads/acadmic_portal.apk",
+    features: [
+      "Dynamic Dual-Domain Oscilloscope tracing carrier envelopes and frequency spectrum spikes in real-time.",
+      "8086 Segment Address Resolver converting physical memory values instantly.",
+      "Data Structure Algorithm Estimator verifying space/time complexities (O(log N), O(N), O(N^2)) dynamically.",
+      "Three engineering subjects integrated: Communication Systems, Microprocessors, and Fundamentals of Data Structures.",
+      "Bilingual Hinglish Explanatory Guides bridging abstract formulas with real-world analogies.",
+      "Fully responsive bottom-sheet modal layouts optimized for mobile WebView wrappers."
+    ]
   }
 };
 
