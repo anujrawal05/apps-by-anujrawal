@@ -1,0 +1,3 @@
+# Google AdSense ads.txt authorization file
+# Once your website is approved by Google AdSense, replace "ca-pub-YOUR_PUBLISHER_ID" with your actual AdSense publisher ID.
+google.com, ca-pub-YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
