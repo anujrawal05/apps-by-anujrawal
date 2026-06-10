@@ -8,7 +8,7 @@ const appPortfolio = {
     releaseDate: "June 2026",
     version: "v1.0.0",
     iconUrl: "./assets/ic_launcher_play.png",
-    downloadUrl: "./downloads/app-debug.apk",
+    downloadUrl: "./downloads/bluetoothExtender.apk",
     features: [
       "Forced Physical Audio Path Routing override to built-in phone speakers.",
       "Background Foreground Service utilizing modern Media Playback API standard to prevent crashes.",
