@@ -7,6 +7,7 @@ const appPortfolio = {
     os: "Android",
     releaseDate: "June 2026",
     version: "v1.0.0",
+    iconUrl: "./assets/ic_launcher_play.png",
     downloadUrl: "./downloads/app-debug.apk",
     features: [
       "Forced Physical Audio Path Routing override to built-in phone speakers.",
@@ -22,8 +23,8 @@ const appPortfolio = {
 // Initialize DOM elements
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("details-modal");
-  const modalContainer = document.getElementById("modal-container");
   const modalClose = document.getElementById("modal-close");
+  const modalIcon = document.getElementById("modal-icon");
   const modalTitle = document.getElementById("modal-title");
   const modalCatchphrase = document.getElementById("modal-catchphrase");
   const modalOs = document.getElementById("modal-os");
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const app = appPortfolio[appKey];
     if (!app) return;
 
+    modalIcon.src = app.iconUrl || "./assets/ic_launcher_play.png";
     modalTitle.textContent = app.title;
     modalCatchphrase.textContent = app.catchphrase;
     modalOs.textContent = app.os;
